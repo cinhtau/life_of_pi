@@ -3,7 +3,7 @@
 
 Use ansible to upgrade all nodes.
 
-Use [playbook](ansible/playbool.yml).
+Use [playbook](ansible/playbook.yml).
 
 ## Check Ansible
 
@@ -51,7 +51,7 @@ The playbook does
 * clean
 * auto-remove
 
-```
+```bash
 tan@omega:~$ ansible-playbook playbook.yml -u root
 
 PLAY [all] *************************************************************************************************************************************************************************************************
