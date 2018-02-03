@@ -1,0 +1,9 @@
+---
+# Install vim as default editor on my pi nodes
+
+- hosts: pi-cluster
+  remote_user: root
+
+  tasks:
+   - name: vim install
+     apt: name=vim state=present

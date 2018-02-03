@@ -3,7 +3,7 @@
 
 Use ansible to upgrade all nodes.
 
-Use [playbook](ansible/playbook.yml).
+Use [playbook](ansible/update-playbook.yml).
 
 ## Check Ansible
 
