@@ -24,3 +24,25 @@ Default login is
  - Expand filesystem to use whole card
  - reboot
  
+## WLAN Setup
+
+In case `raspi-config` did not work out:
+
+Scan list
+```bash
+sudo iwlist wlan0 scan
+```
+
+Configure connection
+```bash
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
+Get IP from Router
+```bash
+wpa_cli -i wlan0 reconfigure
+```
+
+## Diagnosis
+
+Scan with `nmap` for pi nodes 
