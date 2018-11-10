@@ -1,7 +1,7 @@
 
 ## About
 
-This is a collection of memos, notes with my Raspberry Pi Cluster. 
+This is a collection of memos, notes with my Raspberry Pi Cluster.
 
 This is not about the awesome movie of Richard Parker's journey.
 
@@ -9,3 +9,4 @@ This is not about the awesome movie of Richard Parker's journey.
 * [SSH](02_ssh.md)
 * [Updates](03_updates.md)
 * [Software](04_software.md)
+* [Hosts](05_hosts.md)
