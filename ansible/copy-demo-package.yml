@@ -1,0 +1,11 @@
+---
+# copy zip file to all pi hosts
+
+- hosts: pi-cluster
+  remote_user: demo
+
+  tasks:
+    - name: copy demo file
+      copy:
+        src: /Users/vinhn.guyen/lucky_lunch/streaming-demo/demo.tgz
+        dest: /home/demo/demo.tgz
